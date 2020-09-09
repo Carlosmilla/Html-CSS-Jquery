@@ -1,0 +1,11 @@
+.container{
+padding: 2%;
+}
+#lista1 ul li{
+  list-style-type:square ;
+}
+
+#lista2 ol li{
+    list-style-type: lower-roman;
+
+}

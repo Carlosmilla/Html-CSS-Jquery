@@ -1,0 +1,277 @@
+* {
+box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: none;
+}
+html, body {
+    font-family: cursive;
+    background-color: lightslategrey;
+}
+.header1 {
+    text-align: center;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 2px #ffffff;
+
+}
+.datos {
+    background-color: darkcyan;
+    color: black;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: justify;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    float: left;
+}
+.reseña {
+    background-color: darkcyan;
+    color: black;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: justify;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    float: left;
+}
+.principios {
+    background-color: darkcyan;
+    color: black;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: justify;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    float: left;
+}
+
+.bloque {
+    background-color: darkseagreen;
+    text-align: center;
+    text-shadow: 2px 2px 2px #ffffff;
+    color: black;
+    padding: 10px;
+    border-style: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    box-shadow: 2px 2px 10px #ffffff;
+}
+.bloque1 {
+    float: left;
+    background-color: lightcyan;
+    text-align: left;
+    color: black;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-family: cursive;
+    border-color: deepskyblue;
+    box-shadow: 2px 2px 10px #ffffff;
+}
+.bloque2 {
+    background-color: lightcyan;
+    text-align: left;
+    color: black;
+    padding: 10px;
+    border-style: groove;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-family: cursive;
+    border-color: deepskyblue;
+    box-shadow: 2px 2px 10px #ffffff;
+    float: left;
+}
+.bloque3{
+    float: left;
+    background-color: lightcyan;
+    text-align: left;
+    color: black;
+    padding: 10px;
+    border-style: double;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-family: cursive;
+    border-color: deepskyblue;
+    box-shadow: 2px 2px 10px #ffffff;
+}
+.bloque4{
+    float: left;
+    background-color: lightcyan;
+    text-align: left;
+    color: black;
+    padding: 10px;
+    border-style: ridge;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-family: cursive;
+    border-color: darkred;
+    font-size: 15px;
+    box-shadow: 2px 2px 10px #ffffff;
+}
+.bloque4 a {
+    font-size: 25px;
+    border-color: darkred;
+    border-style: none;
+    padding: 5px;
+    border-radius: 2px;
+}
+.bloque4 a:hover {
+    background-color: cyan;
+}
+
+.menu ol {
+    float: left;
+    list-style-type: none;
+    padding: 0;
+    position: relative;
+    left: 60%;
+    width: 90%;
+}
+
+.button {
+    padding: 0;
+}
+.button li{
+    display: inline;
+    position: relative;
+    right: 50%;
+}
+.button li a {
+    font-family: cursive;
+    font-size: 20px;
+    align-items: center;
+    padding: 10px;
+    background-color: cyan;
+    color: black;
+    margin: auto;
+    border-style: double;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+.button li a:hover {
+    background-color: darkgreen;
+}
+
+.bloquei {
+ float: left;
+ margin-left: 40px;
+ max-width: 100%;
+ width: 90%;
+ left: 50%;
+ border-style: inset;
+ border-radius: 10px;
+ border-color: aqua;
+ padding: 10px;
+ margin-top: 20px;
+}
+
+
+@media only screen and (min-width: 992px) {
+    .bloquei{
+        margin-left: 120px;
+    }
+    .bloquei {
+        border-style: none;
+    }
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 39.60%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 55.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+    .bloquei{
+        margin-left: 80px;
+    }
+    .button li{
+        display: inline;
+        position: relative;
+    }
+    .button li a {
+      font-size: 14px;
+    }
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 48%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+
+  @media only screen and (max-width: 599px) {
+    .bloquei {
+        margin-left: 110px;
+    }
+    .button li{
+        display: inline;
+        position: relative;
+    }
+    .button li a {
+          font-size: 11px;
+      }
+    .col-r-1 {width: 8.33%;}
+    .col-r-2 {width: 16.66%;}
+    .col-r-3 {width: 25%;}
+    .col-r-4 {width: 33.33%;}
+    .col-r-5 {width: 41.66%;}
+    .col-r-6 {width: 50%;}
+    .col-r-7 {width: 58.33%;}
+    .col-r-8 {width: 66.66%;}
+    .col-r-9 {width: 75%;}
+    .col-r-10 {width: 83.33%;}
+    .col-r-11 {width: 91.66%;}
+    .col-r-12 {width: 100%;}
+  }

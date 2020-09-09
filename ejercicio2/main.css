@@ -1,0 +1,13 @@
+ body {
+ 	background-color: #efefef;
+ }
+
+ /* selecciona elementos por id */
+ #parrafo {
+ 	color: #ff0000;
+ }
+
+ /* seleccion por etiqueta o clase */
+ .etiqueta { 
+     color: #00aa00;
+  }

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>ejercicio44</title>
+<meta charset="UTF-8">
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="FileSaver.min.js"></script>
+<script src="tableexport.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/additional-methods.js"></script>
+</head>
+
+<body>
+
+
+    <form id="formval" method="GET">
+        <fieldset>
+            <label for="Nombre">Nombre (max 30 caracteres)</label>
+            <input id="nombre" name="name" type="text">
+            <br />
+            <label for="apellido">Apellido (Max 50 caracteres)</label>
+            <input id="apellido" type="text" name="apellido">
+            <br />
+            <label for="correo">Email (max 50 caracteres)</label>
+            <input id="correo" type="email" name="correo">
+            <br />
+            <label for="edad">Edad</label>
+            <input id="edad" type="number" name="edad">
+            <br />
+            <label for="Telefono">Telefono</label>
+            <input id="telefono" type="number" name="Telefono">
+            <br />
+            <input class="submit" type="submit" value="Añadir" id="btn">
+        </fieldset>
+    </form>
+    <table id="table">
+        <thead>
+            <tr>
+                <td>Nombre</td>
+                <td>Apellido</td>
+                <td>Correo</td>
+                <td>Edad</td>
+                <td>Telefono</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="nom"></td>
+                <td id="ape"></td>
+                <td id="co"></td>
+                <td id="ed"></td>
+                <td id="tel"></td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="js.js"></script>
+</body>
+
+</html>

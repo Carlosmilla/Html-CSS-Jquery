@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+input[type="button"]#iniciar {
+    width: 20%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: black;
+    color: cyan;
+    margin-left: 5%;
+}
+
+input[type="button"]#iniciar:hover {
+  background-color: aqua;
+  color: black;
+}
+
+article#tablero input {
+    background-color: black;
+    color: cyan;
+    width: 10%;
+    height: 80px;
+    font-size: 40px;
+    border-radius: 10px;
+}
+
+label#turnoJugador {
+    padding: 20px;
+    width: 10%;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bolder;
+    color: black;
+    margin-left: 3%;
+}

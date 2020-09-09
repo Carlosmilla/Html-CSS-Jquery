@@ -1,0 +1,35 @@
+body {
+    background-color: aqua; 
+}
+
+h1 {
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.noticia1 {
+    color: crimson;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.noticia2 {
+    color: darkslateblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.noticia3 {
+    color: darkgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.vertical-menu {
+    font-size: larger;
+    text-align: center;
+    color: blueviolet;
+    font-family: monospace;
+    font-weight: bolder;
+}

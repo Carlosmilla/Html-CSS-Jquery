@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    font-style: italic;
+    font-family: sans-serif;
+    color: honeydew;
+}
+
+h2 {
+    font-style: italic;
+    font-family: serif;
+    color: ghostwhite;
+}
+
+p { 
+    font-style: unset;
+    color: white;
+}
+
+.cuerpo {
+    font-weight: 900;
+    font-family: initial;
+    font-size: 20px;
+    color: mediumaquamarine;
+}
+
+.fuente { 
+    color: orangered;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Módulo 3 – Ejercicios clase día 1</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">
+body {
+background-color: blue; font-family: Arial;
+}
+h1 {
+text-align: center; text-transform: uppercase; color: #ff0000;
+}
+</style>
+</head>
+<body>
+<h1>Título del sitio</h1>
+<p>Esto es una página web</p>
+<p>Texto agregado por el alumno</p>
+</body>
+</html> 
+
+1 ¿Qué secciones identifica dentro del código?
+
+R: -Tipo de documento (doctype)
+   -Lenguaje predeterminado 
+   -Zona de configuracion (head)
+   -Titulo
+   -Cuerpo
+   -Hoja de estilo
+   -subtitulos y parrafos 
+
+2 ¿Puede determinar, de acuerdo al resultado, qué función cumple cada
+sección del sitio?
+
+R: Si
+ -Tipo de documento (doctype) : establece y le dice al editor que se esta trabajando con un documento html.
+   -Lenguaje predeterminado  : "html lang" define el lenguaje estandar de la pagina
+   -Zona de configuracion (head) : se establecen las referencias, titulos y demas especificaciones de la pagina
+   -Titulo 
+   -Cuerpo : Posee el grueso del contenido
+   -Hoja de estilo : permite establecer el uso de css
+   -subtitulos y parrafos  : ingreso de informacion
+
+3 Abra el archivo usando el Bloc de Notas del computador ¿qué diferencias
+puede apreciar entre una herramienta y la otra?. A su juicio ¿cuál
+aplicación brinda mayores beneficios?
+
+R: El bloc de notas no posee un identificador de etiquetas, por lo que requiere conocimiento previo y mayor atencion.
+   En un editor de texto se aprecian las etiquetas y/o funciones por medio de diferentes colores por lo que al momento 
+   de cometer errores uno puede darse cuenta al momento. 
+
+4 ¿Qué sucedería al cambiar la palabra “green” por “blue” en la línea 9? ¿Y
+si cambiamos la palabra “Arial” por “Verdana” en la línea siguiente?
+
+R: Si se cambia la palabra green por blue el background de la pagina cambiara de color al correspondiente azul y,
+   en el caso de la palabra arial por verdana la fuente de texto cambiaria a la seleccionada. 
+
+5 Ingrese el texto que desee entre las líneas 23 y 24 del archivo, guárdelo y
+recargue el sitio desde el navegador. ¿Qué efectos pudo notar? ¿Qué
+otros efectos se pueden añadir a dicho texto?
+
+R: Lineas 23 y 24 del archivo no existen, al agregar un parrafo entre las lineas 18-19 este aparece en la pagina,
+   de ser ingresado este parrafo fuera del body no se puede ver.

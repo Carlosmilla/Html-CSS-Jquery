@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejercicio28</title>
+        <meta charset="UTF-8">
+    </head>
+    <body id="body" onmousemove="coordenadas(event);"> 
+        <h1>Coordenadas del Raton</h1>
+        <div id="p1">
+            A medida que el usuario vaya moviendo el ratón a través de la página, en el contenedor de texto
+            se debe indicar las coordenadas X e Y en las que está posicionado el ratón en ese momento.
+            Cree una función apropiada para esto.
+            <br>
+            Adicional a lo anterior, al hacer clic con el ratón en algún lugar del sitio, se debe agregar la
+            coordenada en la que hizo la acción y agregar al final del área de texto, sin borrar los valores
+            anteriores.
+            <br>
+            Finalmente, al presionar el botón “Resetear”, se debe limpiar el contenido del contenedor y del
+            área de texto.
+        </div>
+        <form>
+        <div >
+            <textarea id="txt1" cols="30" rows="1"></textarea>
+            <textarea id="txt2" cols="30" rows="1"></textarea>
+        </div>
+        <button type="reset" name="button" id="btn" value="reset">Resetear</button>
+        </form>
+        <script src="js.js"></script>
+    </body>
+</html>

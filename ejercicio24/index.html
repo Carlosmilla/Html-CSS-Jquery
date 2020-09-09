@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"/>
+    <title>Ejercicio 24</title>
+    <style>
+        .personalizar{
+            padding: 20px;
+        }
+    </style>
+  </head>
+  <body>
+    <header class="container text-center">
+      <h1>Ejercicio 24</h1>
+      <hr>
+    </header>
+    <section class="container text-center">
+    <form  id="f1"  name="f1">
+      <!-- Pregunta n1-->
+      <label name="" id="">¿De qué color son las ‘cajas negras’ de los aviones?</label><br />
+      <input type="radio" name="opcionPregunta1" id="" value="no" checked /> Negra
+      <input type="radio" name="opcionPregunta1" id="" value="si" /> Naranja 
+      <input type="radio" name="opcionPregunta1" id="" value="no" /> Blanca <br />
+      <!--Fin Pregunta n1-->
+      <!-- Pregunta n2-->
+      <label name="" id=""> Si en una pecera hay 12 peces y 5 de ellos se ahogan, ¿cuántos peces quedan?</label><br />
+      <input type="radio" name="opcionPregunta2" id="" value="no" checked /> 7
+      <input type="radio" name="opcionPregunta2" id="" value="no" /> 5 
+      <input type="radio" name="opcionPregunta2" id="" value="si" /> 12 <br />
+
+      <!--Fin Pregunta n2-->
+      <!-- Pregunta N3-->
+      <label name="" id="">Estás corriendo en una carrera y adelantas a la persona que está en segundo lugar, ¿en qué posición pasas a estar?</label><br />
+      <input type="radio" name="opcionPregunta3" id="" value="no" checked /> Primero    
+      <input type="radio" name="opcionPregunta3" id="" value="si" /> Segundo 
+      <input type="radio" name="opcionPregunta3" id="" value="no" /> Tercero <br/>
+      <!--Fin Pregunta n3-->
+      <!-- Pregunta n4-->
+      <label name="" id="">¿ ¿Cuál es el día más largo de la semana?</label><br />
+      <input type="radio" name="opcionPregunta4" id="" value="no" checked /> Lunes
+      <input type="radio" name="opcionPregunta4" id="" value="si" /> Miercoles
+      <input type="radio" name="opcionPregunta4" id="" value="no" /> Viernes <br/>
+      <!--Fin Pregunta n4-->
+      <!-- Pregunta n5-->
+      <label name="" id=""> Si tienes un cuenco con seis manzanas y te llevas cuatro, ¿cuántas tienes?</label><br />
+      <input type="radio" name="opcionPregunta5" id="" value="no" checked /> 6
+      <input type="radio" name="opcionPregunta5" id="" value="si" /> 4
+      <input type="radio" name="opcionPregunta5" id="" value="no" /> 2 <br/>
+      <!--Fin Pregunta n5-->
+      <button class="btn btn-info" type="button" id="button" onclick="puntaje()">Procesar</button> 
+    </form>
+</section>
+<script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contenedor {
+    background-color: gray;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.pantalla {
+    padding: 20px;
+}
+
+.numeros button {
+    background-color: black;
+    color: cyan;
+    border-radius: 5px;
+}
+
+.numeros div {
+    text-align: center;
+}
+
+.operaciones {
+    margin-top: 5px;
+}
+
+.operaciones button {
+    background-color: black;
+    color: red;
+    border-radius: 5px;
+}
+
+.numeros button:hover {
+    box-shadow: 0px 0px 12px cyan;
+}
+
+.operaciones button:hover {
+    box-shadow: 0px 0px 12px cyan;
+}
+
+button {
+    margin: 0px;
+    padding: 10px;
+}
+
+#resultado {
+    background-color: cyan;
+    padding: 10px;
+}
+
+#igual {
+    text-align: center;
+}
+
+#igual button{
+    background-color: black;
+    color: red;
+    border-radius: 5px;
+}
+
+#igual button:hover {
+    box-shadow: 0px 0px 12px cyan;
+}

@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: cursive;
+    color: cyan;
+    border-radius: 20px;
+    margin: auto;
+    border-style: double;
+    padding: 10px;
+    text-align: center;
+}
+

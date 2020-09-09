@@ -1,0 +1,32 @@
+body {
+    background-color: ghostwhite;
+}
+
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkslategray;
+}
+
+label {
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: grey;
+}
+
+input {
+    color: indigo;
+    background-color: lightcoral;
+    border-color: black;
+    border-style: dotted;
+}
+
+.region {
+    color: indigo;
+}
+
+textarea {
+    background-color: lightblue;
+    border-style: solid;
+    border-color: blue;
+    border-width: thick;
+}

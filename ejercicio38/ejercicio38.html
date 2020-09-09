@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/additional-methods.js"></script>
+  </head>
+  <body>
+      <form id="formval" method="GET">
+          <fieldset>
+                <label for="nom">Nombre del artículo (max 25 caracteres)</label>
+                <input id="nom" name="name" type="text" >
+               <br />
+                <label for="marca">Marca (requerido)</label>
+                <input id="marca" type="text" name="marca" >
+               <br />
+                <label for="stock">Stock (requerido)</label>
+                <input id="stock" type="text" name="stock" >
+               <br />
+                <label for="estado">Estado</label>
+                <select>
+                    <option value="">Seleccione una opcion</option>
+                    <option value="Bueno">Bueno</option>
+                    <option value="Regular">Regular</option>
+                    <option value="Malo">Malo</option>
+                </select>
+              <br />
+                <label for="color">Color </label>
+                <input id="color" type="text" name="color">
+              <br />
+                <input class="submit" type="submit" value="Validar">
+          </fieldset>
+      </form>
+      <script src="js.js"></script>
+  </body>
+</html>

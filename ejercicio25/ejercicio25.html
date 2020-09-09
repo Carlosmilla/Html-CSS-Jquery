@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>ejercicio25</title>
+    </head>
+    <body>
+        <div class="t1"><h1>Convertidor</h1></div>
+        <div class="p1">Cree una página web que permita convertir un valor en pesos chilenos a distintas unidades
+            monetarias.</div>
+        <div id="contenedor"></div><br />
+        <label>CLP</label>
+        <input type="text" name="clp" id="pesos" value="0"><br />
+        <input type="text" name="resultado" id="resultado" value="0" readonly="readonly"/> <br />
+        <br />
+            <fieldset>
+                <label>
+                    <input type="radio" name="divisa" id="dolar"/> Dolar
+                </label>
+                <label>
+                    <input type="radio" name="divisa" id="yen"/> Yen
+                </label>
+                <label>
+                    <input type="radio" name="divisa" id="euro"/> Euro
+                </label>
+                <label>
+                    <input type="radio" name="divisa" id="yuan"/> Yue
+                </label>
+                <label>
+                    <input type="radio" name="divisa" id="rublo"/> Rublo Ruso
+                </label>
+                <button type="button" name="boton" id="btn" value="calcular" onclick="calcular();">calcular</button>
+            </fieldset>
+        <script src="main.js"></script> 
+    </body>
+</html>

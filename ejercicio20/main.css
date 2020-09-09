@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    background-image: url(https://wallpaperstock.net/fireworks-wallpapers_7839_1366x768.jpg);
+}
+
+.encabezado {
+    border-style: outset;
+    background-color: darkgrey;
+    background-image: none;
+    width: 1000px;
+    size: 1000px;
+    font-size: 30px;
+    font-weight: 30px;
+    text-align: center;
+    padding: 40px;
+    margin: auto;
+    margin-top: 15%;
+    font-family: fantasy;
+}
+
+#tiemporestante {
+    border-style: double;
+    background-color: black;
+    color: cyan;
+    width: 1000px;
+    size: 1000px;
+    font-size: 40px;
+    font-weight: 40px;
+    text-align: center;
+    padding: 50px;
+    margin: auto;
+    margin-top: 1%;
+    background-image: none;
+    font-family: cursive;
+
+}
+
+#tiemporestante:hover{
+    background-color: aqua;
+    box-shadow: 0px 0px 2px;
+    color: crimson;
+}
